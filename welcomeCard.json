@@ -1,0 +1,58 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://developmentdiag145.blob.core.windows.net/kmks/bot.png",
+      "size": "small",
+      "horizontalAlignment": "center",
+      "width": "60px",
+      "height": "60px"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Hi, this is Riya, the Safe & Smart Workplace Virtual Agent. How may I help you today?",
+      "wrap": true,
+      "horizontalAlignment": "Center",
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": "true",
+      "text": "Here are few most common topics i can help you with :-",
+      "wrap": true,
+      "horizontalAlignment": "Center",
+      "maxLines": 0
+    },
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Book different facilities in the office",
+      "horizontalAlignment": "Left",
+      "data": {
+        "x": "booking"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Navigation Support",
+      "data": {
+        "x": "navigation"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "FAQ",
+      "data": {
+        "x": "faq"
+      }
+    }
+  ]
+}

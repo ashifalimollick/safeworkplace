@@ -1,0 +1,46 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "weight": "bolder",
+          "text": "Booking Confirmed!",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "EMPLOYEE ID: formatspace1 ",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "Facility : formatspace2",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "Floor : formatspace3",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "Date : formatspace6",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "Facility ID : FPS00C002",
+          "wrap": true
+        },
+      ],
+      "style": "good",
+      "bleed": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}
