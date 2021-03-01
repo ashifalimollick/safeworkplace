@@ -1,0 +1,80 @@
+Intent: welcome
+
+Utterances:
+Hi
+Hey
+Hi, what servicesd do you offer
+What can you help me with
+what are your features
+
+
+==============================
+
+Intent:bookfacility
+
+Entities:
+datetimeV2 [prebuilt]
+EmployeeID
+FacilityType
+Floor
+PersonAmount
+
+===============================
+
+Utterances:
+can you book a seat for me
+can you book me a conference room today at 12pm
+book a office space for me on 12th march
+reserve a seat for me in pantry today
+reserve an office space for me
+I want to book cubicle on 2nd floor
+i want to book cubicle on 12th March
+i want to book cubicle on 2nd floor and my employee id is 123456
+my employee id is 123456 and  i want to book cubicle on 10th March
+my employee id is 123456 and i want to book cubicle on 10th march on 2nd floor
+i want to book a seat in pantry at 3pm today
+i want to book an office space in 4th floor and my employee id is 123456
+i want to book a conference room
+i want to book a cubicle seat in 2nd floor on 5th march
+i want to book a video conference room
+i want to book a seat in pantry
+i want to book a cubicle
+i want to book a conference room for 3 people
+i want to book table tennis for 3 people
+i want to book table tennis for 3 people at 12pm today
+i want to book pool at 7pm today
+i want to book video conference room for 6 people on 27th March on 2nd floor
+i want to book video conference room for 6 people on 27th March 
+================================
+
+Intent: navigatefacility
+
+Entities: FacilityID
+
+Utterances:
+In which floor can i find O001x2345
+Navigate me to c002x2342
+How do i reach c001x0023
+can you locate a seat for me
+can you locate c001x0023 for me
+where can i find my seat
+can you help me find my friends seat
+can you help me find my supervisors office
+how do i reach there
+how do i reach O001x2345
+i am lost
+i am lost, help me find my seat
+i am new here, can you help me find my seat
+i am new here, help me find O001x2345
+
+
+===============================
+
+Intent: EndConversation
+
+Utterances:
+Thanks
+Thanks alot
+thats all
+No thats all, thanks
+
